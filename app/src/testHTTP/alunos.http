@@ -1,0 +1,14 @@
+@baseUrl = https://8080-marcossakaguchi-javaapi-fhbjlpo0tho.ws-us115.gitpod.io
+
+###
+
+GET {{baseUrl}}/alunos
+
+###
+
+POST {{baseUrl}}/alunos
+Content-type: application/json
+
+{
+    "nome":"manbre 35"
+}
