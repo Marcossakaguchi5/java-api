@@ -12,3 +12,22 @@ Content-type: application/json
 {
     "nome":"manbre 35"
 }
+
+
+###
+
+GET {{baseUrl}}/alunos/1
+
+
+###
+
+PUT {{baseUrl}}/alunos/1
+Content-type: application/json
+
+{
+    "nome":"bubu 35"
+}
+
+###
+
+DELETE {{baseUrl}}/alunos/1
